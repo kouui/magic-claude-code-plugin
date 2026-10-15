@@ -17,6 +17,7 @@ claude plugin install <plugin>@magic-claude-code-plugin -s user
 | `ste` | [kouui/ste-claude-plugin](https://github.com/kouui/ste-claude-plugin) | Rewrite English into ASD-STE100 Simplified Technical English for agent-readable text |
 | `zh-plain` | [kouui/zh-plain-claude-plugin](https://github.com/kouui/zh-plain-claude-plugin) | Write or rewrite Chinese text so a human or AI agent cannot misread it |
 | `usage-hud` | [kouui/usage-hud-claude-plugin](https://github.com/kouui/usage-hud-claude-plugin) | A band above the prompt with model, git branch, context fill and plan usage; replaces a status-line HUD |
+| `readonly-agents` | [kouui/readonly-agents-claude-plugin](https://github.com/kouui/readonly-agents-claude-plugin) | Subagents `reader` (read-only, plus read-only git queries) and `verifier` (runs in its own git worktree) |
 
 ## Add a plugin
 

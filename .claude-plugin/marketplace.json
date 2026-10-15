@@ -45,6 +45,16 @@
         "repo": "kouui/usage-hud-claude-plugin"
       },
       "homepage": "https://github.com/kouui/usage-hud-claude-plugin"
+    },
+    {
+      "name": "readonly-agents",
+      "description": "Two subagents: reader (read and search, plus plain read-only git queries) and verifier (runs things in its own git worktree).",
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "kouui/readonly-agents-claude-plugin"
+      },
+      "homepage": "https://github.com/kouui/readonly-agents-claude-plugin"
     }
   ]
 }
