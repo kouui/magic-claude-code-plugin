@@ -18,6 +18,7 @@ claude plugin install <plugin>@magic-claude-code-plugin -s user
 | `zh-plain` | [kouui/zh-plain-claude-plugin](https://github.com/kouui/zh-plain-claude-plugin) | Write or rewrite Chinese text so a human or AI agent cannot misread it |
 | `usage-hud` | [kouui/usage-hud-claude-plugin](https://github.com/kouui/usage-hud-claude-plugin) | A band above the prompt with model, git branch, context fill and plan usage; replaces a status-line HUD |
 | `readonly-agents` | [kouui/readonly-agents-claude-plugin](https://github.com/kouui/readonly-agents-claude-plugin) | Subagents `reader` (read-only, plus read-only git queries) and `verifier` (runs in its own git worktree) |
+| `coding` | [kouui/coding-claude-plugin](https://github.com/kouui/coding-claude-plugin) | Skills `task-prepare-implementation`, `github-create-pr`, `github-cli`, and agents `architecture-reviewer`, `brainstormer`, `code-reviewer`, `plan-reviewer` |
 
 ## Add a plugin
 
