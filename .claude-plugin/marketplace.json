@@ -25,6 +25,16 @@
         "repo": "kouui/ste-claude-plugin"
       },
       "homepage": "https://github.com/kouui/ste-claude-plugin"
+    },
+    {
+      "name": "zh-plain",
+      "description": "Write or rewrite Chinese text so a human or AI agent cannot misread it: documents, skills, prompts, tool descriptions, specs.",
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "kouui/zh-plain-claude-plugin"
+      },
+      "homepage": "https://github.com/kouui/zh-plain-claude-plugin"
     }
   ]
 }

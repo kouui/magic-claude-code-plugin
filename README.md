@@ -15,6 +15,7 @@ claude plugin install <plugin>@magic-claude-code-plugin -s user
 | --- | --- | --- |
 | `struct-compact` | [kouui/struct-compact-claude-plugin](https://github.com/kouui/struct-compact-claude-plugin) | Compaction via a structured handoff written by haiku; keeps the last 4 text messages |
 | `ste` | [kouui/ste-claude-plugin](https://github.com/kouui/ste-claude-plugin) | Rewrite English into ASD-STE100 Simplified Technical English for agent-readable text |
+| `zh-plain` | [kouui/zh-plain-claude-plugin](https://github.com/kouui/zh-plain-claude-plugin) | Write or rewrite Chinese text so a human or AI agent cannot misread it |
 
 ## Add a plugin
 
