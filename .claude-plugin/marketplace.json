@@ -35,6 +35,16 @@
         "repo": "kouui/zh-plain-claude-plugin"
       },
       "homepage": "https://github.com/kouui/zh-plain-claude-plugin"
+    },
+    {
+      "name": "usage-hud",
+      "description": "A band above the prompt showing model, directory, git branch, context fill and plan-window usage with reset countdowns. No runtime dependency.",
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "kouui/usage-hud-claude-plugin"
+      },
+      "homepage": "https://github.com/kouui/usage-hud-claude-plugin"
     }
   ]
 }
