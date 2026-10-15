@@ -1,0 +1,31 @@
+# magic-claude-code-plugin
+
+A Claude Code plugin marketplace. This repo is only an index (`.claude-plugin/marketplace.json`); each plugin lives in its own repository and is pulled from GitHub.
+
+## Use
+
+```bash
+claude plugin marketplace add kouui/magic-claude-code-plugin
+claude plugin install <plugin>@magic-claude-code-plugin -s user
+```
+
+## Plugins
+
+| Plugin | Repository | What it does |
+| --- | --- | --- |
+| `struct-compact` | [kouui/struct-compact-claude-plugin](https://github.com/kouui/struct-compact-claude-plugin) | Compaction via a structured handoff written by haiku; keeps the last 4 text messages |
+| `ste` | [kouui/ste-claude-plugin](https://github.com/kouui/ste-claude-plugin) | Rewrite English into ASD-STE100 Simplified Technical English for agent-readable text |
+
+## Add a plugin
+
+Add an entry to `plugins` in `.claude-plugin/marketplace.json`:
+
+```json
+{
+  "name": "<plugin-name>",
+  "description": "...",
+  "source": { "source": "github", "repo": "kouui/<repo>" }
+}
+```
+
+The plugin repo needs its own `.claude-plugin/plugin.json`.

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "magic-claude-code-plugin",
+  "description": "kouui's Claude Code plugins. This repo is only an index: each plugin lives in its own repository.",
+  "owner": {
+    "name": "kouui"
+  },
+  "plugins": [
+    {
+      "name": "struct-compact",
+      "description": "Replace default compaction with a structured handoff written by haiku from a slimmed transcript; keeps the last 4 text messages.",
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "kouui/struct-compact-claude-plugin"
+      },
+      "homepage": "https://github.com/kouui/struct-compact-claude-plugin"
+    },
+    {
+      "name": "ste",
+      "description": "Rewrite English into ASD-STE100 Simplified Technical English so an AI agent or downstream system cannot misparse it.",
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "kouui/ste-claude-plugin"
+      },
+      "homepage": "https://github.com/kouui/ste-claude-plugin"
+    }
+  ]
+}
