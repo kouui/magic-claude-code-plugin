@@ -57,6 +57,16 @@
       "homepage": "https://github.com/kouui/readonly-agents-claude-plugin"
     },
     {
+      "name": "progress-pane",
+      "description": "A Progress pane (or one row above the prompt) showing the steps of the current task, fed by its own tool and the built-in TodoWrite.",
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "kouui/progress-pane-claude-plugin"
+      },
+      "homepage": "https://github.com/kouui/progress-pane-claude-plugin"
+    },
+    {
       "name": "coding",
       "description": "Task preparation, GitHub PR and gh CLI skills, and four review/brainstorm subagents (architecture, plan, code, brainstorm).",
       "category": "development",
