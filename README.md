@@ -20,6 +20,7 @@ claude plugin install <plugin>@magic-claude-code-plugin -s user
 | `readonly-agents` | [kouui/readonly-agents-claude-plugin](https://github.com/kouui/readonly-agents-claude-plugin) | Subagents `reader` (read-only, plus read-only git queries) and `verifier` (runs in its own git worktree) |
 | `progress-pane` | [kouui/progress-pane-claude-plugin](https://github.com/kouui/progress-pane-claude-plugin) | A Progress pane on the right: the task's steps (own tool or `TodoWrite`, kept across `--resume`) and the uncommitted git changes grouped by directory |
 | `coding` | [kouui/coding-claude-plugin](https://github.com/kouui/coding-claude-plugin) | Skills `task-prepare-implementation`, `github-create-pr`, `github-cli`, and agents `architecture-reviewer`, `brainstormer`, `code-reviewer`, `plan-reviewer` |
+| `pstack` | [kouui/pstack-claude-plugin](https://github.com/kouui/pstack-claude-plugin) | Claude Code port of Cursor's pstack: `/poteto-mode` router with playbooks, verification-first skills, principles, and review subagents |
 
 ## Add a plugin
 

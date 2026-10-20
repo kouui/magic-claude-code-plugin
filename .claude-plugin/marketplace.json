@@ -75,6 +75,16 @@
         "repo": "kouui/coding-claude-plugin"
       },
       "homepage": "https://github.com/kouui/coding-claude-plugin"
+    },
+    {
+      "name": "pstack",
+      "description": "Rigorous, parallelizable agent workflows: the poteto-mode router with playbooks, verification-first skills, principles, and review subagents. Ported from cursor/plugins pstack.",
+      "category": "development",
+      "source": {
+        "source": "github",
+        "repo": "kouui/pstack-claude-plugin"
+      },
+      "homepage": "https://github.com/kouui/pstack-claude-plugin"
     }
   ]
 }
